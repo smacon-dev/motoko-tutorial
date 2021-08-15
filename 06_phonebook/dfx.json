@@ -3,19 +3,6 @@
     "phonebook": {
       "main": "src/phonebook/main.mo",
       "type": "motoko"
-    },
-    "phonebook_assets": {
-      "dependencies": [
-        "phonebook"
-      ],
-      "frontend": {
-        "entrypoint": "src/phonebook_assets/src/index.html"
-      },
-      "source": [
-        "src/phonebook_assets/assets",
-        "dist/phonebook_assets/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
