@@ -9,7 +9,7 @@
         "access_hello"
       ],
       "frontend": {
-        "entrypoint": "src/access_hello_assets/src/index.html"
+        "entrypoint": "src/access_hello_assets/public/index.js"
       },
       "source": [
         "src/access_hello_assets/assets",
@@ -20,11 +20,10 @@
   },
   "defaults": {
     "build": {
-      "args": "",
       "packtool": ""
     }
   },
-  "dfx": "0.8.4",
+  "dfx": "0.6.22",
   "networks": {
     "local": {
       "bind": "127.0.0.1:8000",
