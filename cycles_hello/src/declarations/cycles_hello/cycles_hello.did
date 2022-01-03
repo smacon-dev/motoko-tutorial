@@ -1,0 +1,8 @@
+type HelloCycles = 
+ service {
+   greet: (text) -> (text);
+   owner: () -> (principal);
+   wallet_balance: () -> (nat);
+   wallet_receive: () -> (record {accepted: nat64;});
+ };
+service : (nat) -> HelloCycles
